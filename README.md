@@ -1,6 +1,33 @@
 # labirynt-rust
 
-Implementation of algorithm that finds the shortest path from 'S' point to 'K' point.
+Implementation of algorithm that finds the shortest path from 'S' point to 'K' point in a 10x10 randomised matrix of ones and zeroes.
+
+```
+0 0 1 0 1 0 1 1 1 0
+1 1 0 0 0 1 0 0 1 1
+1 1 K 1 1 0 1 0 0 1
+1 0 1 1 0 0 0 1 0 0
+0 1 S 1 0 1 1 1 0 0
+1 1 1 0 0 0 0 1 0 0
+0 1 1 1 0 0 1 1 1 1
+1 1 0 1 0 0 1 1 0 0
+1 1 1 0 0 0 1 0 0 0
+0 0 1 0 0 0 1 0 0 1
+Found 130 paths
+shortest path to target has 3 nodes
+(4,2)(3,2)(2,2)
+0 0 1 0 1 0 1 1 1 0
+1 1 0 0 0 1 0 0 1 1
+1 1 K 1 1 0 1 0 0 1
+1 0 1 1 0 0 0 1 0 0
+0 1 S 1 0 1 1 1 0 0
+1 1 1 0 0 0 0 1 0 0
+0 1 1 1 0 0 1 1 1 1
+1 1 0 1 0 0 1 1 0 0
+1 1 1 0 0 0 1 0 0 0
+0 0 1 0 0 0 1 0 0 1
+```
+
 
 Originally written in C++ (as this was the task requirement), but I rewrote it in Rust for practice.
 
