@@ -185,6 +185,5 @@ fn main() {
 
     //print_paths(&paths);
     println!("Found {} paths", paths.len());
-
     find_shortest(&matrix, &paths);
 }
