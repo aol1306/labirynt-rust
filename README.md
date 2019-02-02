@@ -1,4 +1,4 @@
-# labirynt-rust
+# labirynt-rust &emsp; [![Build Status](https://travis-ci.com/aol1306/labirynt-rust.svg?branch=master)](https://travis-ci.com/aol1306/labirynt-rust)
 
 Implementation of algorithm that finds the shortest path from 'S' point to 'K' point in a 10x10 randomised matrix of ones and zeroes.
 
